@@ -1,0 +1,41 @@
+body{
+   
+    background-image: url("background.png");
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.banner{
+    text-align: center;
+    background-image: url("bannerbg.png");
+    height: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+.body
+{
+    border: 4px solid gray;
+    border-radius: 20px;
+    max-width:800;
+    text-align: center;
+    overflow: hidden;
+}
+.top
+{
+    background-image: url('./rbg.png');
+	height: 83px;
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+.content_left
+{
+    float: left;
+    width: 550px;
+}
